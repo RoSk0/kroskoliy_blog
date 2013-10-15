@@ -1,0 +1,5 @@
+name = K Roskoliy theme
+description = K Roskoliy personal blog theme.
+core = 7.x
+engine = phptemplate
+base = responsive_blog
