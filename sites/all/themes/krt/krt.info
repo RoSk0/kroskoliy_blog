@@ -3,6 +3,7 @@ description = K Roskoliy personal blog theme.
 core = 7.x
 engine = phptemplate
 base theme = responsive_blog
+stylesheets[all][] = customs.css
 regions[sidebar_first]  = First Sidebar
 regions[header]         = Header
 regions[preface_first]  = Preface First

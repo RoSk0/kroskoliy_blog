@@ -81,35 +81,13 @@
       </hgroup>
     <?php endif; ?>
     <?php if (theme_get_setting('socialicon_display', 'krt')): ?>
-        <?php 
-        $twitter_url = check_plain(theme_get_setting('twitter_url', 'krt'));
-        $facebook_url = check_plain(theme_get_setting('facebook_url', 'krt'));
-        $google_plus_url = check_plain(theme_get_setting('google_plus_url', 'krt'));
-        $linkedin_url = check_plain(theme_get_setting('linkedin_url', 'krt'));
-        ?>
       <div class="social-profile">
-        <ul>
-          <?php if ($facebook_url): ?><li class="facebook">
-            <a target="_blank" title="<?php print $site_name; ?> in Facebook" href="<?php print $facebook_url; ?>"><?php print $site_name; ?> Facebook </a>
-          </li><?php endif; ?>
-          <?php if ($twitter_url): ?><li class="twitter">
-            <a target="_blank" title="<?php print $site_name; ?> in Twitter" href="<?php print $twitter_url; ?>"><?php print $site_name; ?> Twitter </a>
-          </li><?php endif; ?>
-          <?php if ($google_plus_url): ?><li class="google-plus">
-            <a target="_blank" title="<?php print $site_name; ?> in Google+" href="<?php print $google_plus_url; ?>"><?php print $site_name; ?> Google+ </a>
-          </li><?php endif; ?>
-          <?php if ($linkedin_url): ?><li class="linkedin">
-            <a target="_blank" title="<?php print $site_name; ?> in LinkedIn" href="<?php print $linkedin_url; ?>"><?php print $site_name; ?> LinkedIn </a>
-          </li><?php endif; ?>
-          <li class="rss">
-            <a target="_blank" title="<?php print $site_name; ?> in RSS" href="<?php print $front_page; ?>rss.xml"><?php print $site_name; ?> RSS </a>
-          </li>
-        </ul>
+<?php print $sm_links; ?>
       </div>
     <?php endif; ?>
     <nav id="navigation" role="navigation">
       <div id="main-menu">
-        <?php 
+        <?php
           if (module_exists('i18n_menu')) {
             $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
           } else {
@@ -144,7 +122,7 @@
       <section id="content" role="main">
         <?php if ($is_front): ?>
         <?php if (theme_get_setting('slideshow_display','krt')): ?>
-        <?php 
+        <?php
         $slide1_url = check_plain(theme_get_setting('slide1_url','krt'));
         $slide2_url = check_plain(theme_get_setting('slide2_url','krt'));
         $slide3_url = check_plain(theme_get_setting('slide3_url','krt'));
@@ -195,7 +173,7 @@
     <?php if ($page['sidebar_first']): ?>
       <aside id="sidebar" role="complementary">
        <?php print render($page['sidebar_first']); ?>
-      </aside> 
+      </aside>
     <?php endif; ?>
   </div>
 
@@ -214,20 +192,17 @@
           </div><?php endif; ?>
         </div>
       <?php endif; ?>
-      
+
       <?php print render($page['footer']); ?>
     </div>
 
     <div id="bottom" class="clearfix">
       <div class="copyright"><?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a></div>
-      <div class="credit"><?php print t('Theme by'); ?>  <a href="http://www.devsaran.com" target="_blank">Devsaran</a></div>
+      <div class="credit">
+        <div>Theme by  <a href="http://www.devsaran.com" target="_blank">Devsaran</a></div>
+        <div>Icons by <a href="https://github.com/Incwadra" target="_blank">Incwadra</a></div>
+    </div>
     </div>
   </footer>
 
 </div>
-
-
-
-
-
-

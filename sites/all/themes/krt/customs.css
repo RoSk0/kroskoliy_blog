@@ -1,0 +1,10 @@
+
+.social-profile ul li a {
+  display: block;
+  background: none;
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  text-indent: 0;
+}
+
