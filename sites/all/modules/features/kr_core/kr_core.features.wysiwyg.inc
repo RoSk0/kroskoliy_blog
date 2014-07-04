@@ -84,6 +84,11 @@ function kr_core_wysiwyg_default_profiles() {
       'advanced__active_tab' => 'edit-output',
       'forcePasteAsPlainText' => 0,
     ),
+    'microdata' => array(
+      '#attributes' => array(
+        'itemscope' => '',
+      ),
+    ),
     'rdf_mapping' => array(),
   );
 

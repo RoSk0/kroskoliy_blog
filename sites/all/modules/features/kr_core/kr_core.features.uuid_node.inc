@@ -46,6 +46,21 @@ Currently I\'m working on <a href="http://www.trellon.com/">Trellon</a> and main
       ),
     ),
   ),
+  'metatags' => array(),
+  'microdata' => array(
+    '#attributes' => array(
+      'itemscope' => '',
+    ),
+    'body' => array(
+      '#attributes' => array(),
+      'value' => array(
+        '#attributes' => array(),
+      ),
+      'summary' => array(
+        '#attributes' => array(),
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'foaf:Document',
