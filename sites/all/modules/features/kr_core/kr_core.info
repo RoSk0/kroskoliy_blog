@@ -30,6 +30,7 @@ features[field_instance][] = node-article-field_image
 features[field_instance][] = node-article-field_tags
 features[field_instance][] = node-page-body
 features[filter][] = full_html
+features[menu_custom][] = main-menu
 features[menu_links][] = main-menu_contact:contact
 features[menu_links][] = main-menu_home:<front>
 features[node][] = article

@@ -11,13 +11,13 @@ function kr_cv_menu_default_menu_links() {
   $menu_links = array();
 
   // Exported menu link: main-menu_cv:node/2
-  $menu_links['main-menu_cv:node/2'] = array(
+  $menu_links['main-menu_cv:node/3'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'node/2',
+    'link_path' => 'node/3',
     'router_path' => 'node/%',
     'link_title' => 'CV',
     'options' => array(
-      'identifier' => 'main-menu_cv:node/2',
+      'identifier' => 'main-menu_cv:node/3',
     ),
     'module' => 'menu',
     'hidden' => 0,
