@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the KR SEO feature.
  */
+
+include_once 'kr_seo.features.inc';
