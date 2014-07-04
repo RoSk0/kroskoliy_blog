@@ -8,3 +8,11 @@
   text-indent: 0;
 }
 
+table {
+  background: none;
+  border: none;
+}
+
+li p {
+  margin-bottom: 0.5em;
+}
