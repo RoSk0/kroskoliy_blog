@@ -209,6 +209,21 @@ function kr_cv_uuid_features_default_content() {
       ),
     ),
   ),
+  'metatags' => array(),
+  'microdata' => array(
+    '#attributes' => array(
+      'itemscope' => '',
+    ),
+    'body' => array(
+      '#attributes' => array(),
+      'value' => array(
+        '#attributes' => array(),
+      ),
+      'summary' => array(
+        '#attributes' => array(),
+      ),
+    ),
+  ),
   'rdf_mapping' => array(
     'rdftype' => array(
       0 => 'foaf:Document',
