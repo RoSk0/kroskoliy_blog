@@ -10,7 +10,7 @@
 function kr_cv_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_cv:node/2
+  // Exported menu link: main-menu_cv:node/3
   $menu_links['main-menu_cv:node/3'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'node/3',

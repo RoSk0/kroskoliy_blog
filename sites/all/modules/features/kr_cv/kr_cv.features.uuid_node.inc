@@ -213,6 +213,10 @@ function kr_cv_uuid_features_default_content() {
   'microdata' => array(
     '#attributes' => array(
       'itemscope' => '',
+      'itemid' => 'http://kroskoliy.com/cv',
+    ),
+    'title' => array(
+      '#attributes' => array(),
     ),
     'body' => array(
       '#attributes' => array(),
