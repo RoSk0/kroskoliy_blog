@@ -448,13 +448,6 @@ function kr_seo_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'xmlsitemap_generated_last';
-  $strongarm->value = 1404478458;
-  $export['xmlsitemap_generated_last'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'xmlsitemap_lastmod_format';
   $strongarm->value = 'Y-m-d\\TH:i\\Z';
   $export['xmlsitemap_lastmod_format'] = $strongarm;

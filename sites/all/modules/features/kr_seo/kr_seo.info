@@ -70,7 +70,6 @@ features[variable][] = xmlsitemap_engines_minimum_lifetime
 features[variable][] = xmlsitemap_engines_submit_updated
 features[variable][] = xmlsitemap_frontpage_changefreq
 features[variable][] = xmlsitemap_frontpage_priority
-features[variable][] = xmlsitemap_generated_last
 features[variable][] = xmlsitemap_lastmod_format
 features[variable][] = xmlsitemap_minimum_lifetime
 features[variable][] = xmlsitemap_path

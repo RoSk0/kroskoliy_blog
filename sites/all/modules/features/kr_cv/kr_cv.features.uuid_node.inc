@@ -29,9 +29,9 @@ function kr_cv_uuid_features_default_content() {
   'body' => array(
     'und' => array(
       0 => array(
-        'value' => '<h1 align="center">Kirill Roskoliy</h1>
+        'value' => '<h1 style="text-align: center;">Kirill Roskoliy</h1>
 
-<table border="0" cellpadding="1" cellspacing="1">
+<table>
 	<tbody>
 		<tr>
 			<td><a href="mailto:roskoliy.kirill@gmail.com">roskoliy.kirill@gmail.com</a></td>
@@ -118,31 +118,21 @@ function kr_cv_uuid_features_default_content() {
 ',
         'summary' => '',
         'format' => 'full_html',
-        'safe_value' => '<h1 align="center">Kirill Roskoliy</h1>
+        'safe_value' => '<h1 style="text-align:center;">Kirill Roskoliy</h1>
 
-<table border="0" cellpadding="1" cellspacing="1">
-	<tbody>
-		<tr>
-			<td><a href="mailto:roskoliy.kirill@gmail.com">roskoliy.kirill@gmail.com</a></td>
+<table><tbody><tr><td><a href="mailto:roskoliy.kirill@gmail.com">roskoliy.kirill@gmail.com</a></td>
 			<td>Skype: roskoliy.kirill</td>
-		</tr>
-		<tr>
-			<td>Cell: +380 50 19 19 021</td>
+		</tr><tr><td>Cell: +380 50 19 19 021</td>
 			<td><a href="http://drupal.org/user/325151">http://drupal.org/user/325151</a></td>
-		</tr>
-		<tr>
-			<td>Ukraine, 86156, Makeevka, Zeleniy 6 263</td>
+		</tr><tr><td>Ukraine, 86156, Makeevka, Zeleniy 6 263</td>
 			<td><a href="http://ua.linkedin.com/in/roskoliykirill/">http://ua.linkedin.com/in/roskoliykirill/</a></td>
-		</tr>
-	</tbody>
-</table>
+		</tr></tbody></table>
 
 <p>I\'m a Drupal backend developer. I can do basic theming, but my real passion is backend. I\'m in love with Drupal for 5 years. Interested in everything that relates to information technology. I\'m making contributions of patches to Drupal core and contrib modules, active local community member. Organized DrupalCamp Donetsk in 2011 and 2014. I have 6 years of PHP programming experience from which 5 years of Drupal development experience. Have experience in server administration with LAMP stack. Have work experience with Amazon Web Services and Aegir hosting system, administration and extension of functionality.</p>
 
 <h2>Programming languages and related technologies</h2>
 
-<ul>
-	<li>
+<ul><li>
 		<p>PHP, JavaScript, jQuery, AJAX.</p>
 	</li>
 	<li>
@@ -176,8 +166,7 @@ function kr_cv_uuid_features_default_content() {
 
 <h2>Education</h2>
 
-<ul>
-	<li>
+<ul><li>
 		<p>Dec 2013 – Jan 2014 - <a href="http://education.mongodb.com/downloads/certificates/f627a534debe49c6be6a303e859da9f3/Certificate.pdf">M102: MongoDB for DBAs</a>.</p>
 	</li>
 	<li>
@@ -187,25 +176,13 @@ function kr_cv_uuid_features_default_content() {
 
 <h2>Work experience</h2>
 
-<p><strong>Name of employer:</strong> Trellon, LLC<br>
-	<strong>Dates of employment:</strong> Jan 2013 - now<br>
-	<strong>Job title:</strong> Drupal Backend Developer<br>
-	<strong>Role/Project description:</strong> Developer – implementation of new features, bug fixing, upgrade and modification of existing site functinality. Toked active participation in extending and improving of <a href="https://drupal.org/project/crm_core">CRM Core</a> and <a href="https://drupal.org/project/crm_core_profile">CRM Core Profile</a>. Created searchers with SOLR. Created external datasource import for Drupal - <a href="https://github.com/Stanford/CAP_drupal">Stanford CAP API</a>.<br>
-	<strong>Tools/technologies:</strong> Project/issue management/documentation – Redmine, IDE – PHPStorm, DVCS – Git, Code hosting – GitHub/BitBucket/selfhosted, Drupal website management – Aegir, Database – MySQL, Project hosting – Amazon Web Services/selfhosted/Media Temple, Search engine – Apache SOLR.</p>
+<p><strong>Name of employer:</strong> Trellon, LLC<br /><strong>Dates of employment:</strong> Jan 2013 - now<br /><strong>Job title:</strong> Drupal Backend Developer<br /><strong>Role/Project description:</strong> Developer – implementation of new features, bug fixing, upgrade and modification of existing site functinality. Toked active participation in extending and improving of <a href="https://drupal.org/project/crm_core">CRM Core</a> and <a href="https://drupal.org/project/crm_core_profile">CRM Core Profile</a>. Created searchers with SOLR. Created external datasource import for Drupal - <a href="https://github.com/Stanford/CAP_drupal">Stanford CAP API</a>.<br /><strong>Tools/technologies:</strong> Project/issue management/documentation – Redmine, IDE – PHPStorm, DVCS – Git, Code hosting – GitHub/BitBucket/selfhosted, Drupal website management – Aegir, Database – MySQL, Project hosting – Amazon Web Services/selfhosted/Media Temple, Search engine – Apache SOLR.</p>
 
-<p><strong>Name of employer:</strong> Shvets Group, Kiev<br>
-	<strong>Dates of employment:</strong> Mar 2012 – Jan 2013<br>
-	<strong>Job title:</strong> Drupal Backend Developer<br>
-	<strong>Role/Project description:</strong> Developer – implementation of new features, bug fixing, upgrade and modification of development tools(self created and contributed like Aegir). The project itself is a Drupal distribution (based on Drupal 7) for American bankruptcy lawyers. It aims to simplify working with clients by providing appointment management tools, lead management tools(with custom workflow), phone systems integration(like Switchvox) to have ability to replay call records, commercial company tracking functionality, task management tools, reporting tools(call performance reports, campaign reports) and such.<br>
-	<strong>Tools/technologies:</strong> Project/issue management – Jira + GreenHopper, documentation – Confluence, IDE – PHPStorm, DVCS – Git, Code hosting – GitHub/BitBucket, Drupal website management – Aegir, Database – MySQL, Project hosting – Amazon Web Services.</p>
+<p><strong>Name of employer:</strong> Shvets Group, Kiev<br /><strong>Dates of employment:</strong> Mar 2012 – Jan 2013<br /><strong>Job title:</strong> Drupal Backend Developer<br /><strong>Role/Project description:</strong> Developer – implementation of new features, bug fixing, upgrade and modification of development tools(self created and contributed like Aegir). The project itself is a Drupal distribution (based on Drupal 7) for American bankruptcy lawyers. It aims to simplify working with clients by providing appointment management tools, lead management tools(with custom workflow), phone systems integration(like Switchvox) to have ability to replay call records, commercial company tracking functionality, task management tools, reporting tools(call performance reports, campaign reports) and such.<br /><strong>Tools/technologies:</strong> Project/issue management – Jira + GreenHopper, documentation – Confluence, IDE – PHPStorm, DVCS – Git, Code hosting – GitHub/BitBucket, Drupal website management – Aegir, Database – MySQL, Project hosting – Amazon Web Services.</p>
 
-<p><strong>Name of employer:</strong> Own projects<br>
-	<strong>Dates of employment:</strong> 2006 - Mar 2012<br>
-	<strong>Job title:</strong> Web developer<br>
-	<strong>Project/Role description:</strong> Owner of small local web studio. Development, hosting and almost all aspects of work, except design, were my responsibilities.<br>
-	<strong>Tools/technologies:</strong> IDE – Eclipse, DVCS – Git, Project/Issue/Documents management – Google Docs, Mavenlink.</p>
+<p><strong>Name of employer:</strong> Own projects<br /><strong>Dates of employment:</strong> 2006 - Mar 2012<br /><strong>Job title:</strong> Web developer<br /><strong>Project/Role description:</strong> Owner of small local web studio. Development, hosting and almost all aspects of work, except design, were my responsibilities.<br /><strong>Tools/technologies:</strong> IDE – Eclipse, DVCS – Git, Project/Issue/Documents management – Google Docs, Mavenlink.</p>
 ',
-        'safe_summary' => '',
+        'safe_summary' => NULL,
       ),
     ),
   ),
