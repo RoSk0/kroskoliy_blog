@@ -8,7 +8,6 @@ dependencies[] = metatag
 dependencies[] = metatags_quick
 dependencies[] = metatags_quick_extra
 dependencies[] = microdata
-dependencies[] = page_title
 dependencies[] = pathauto
 dependencies[] = rdf
 dependencies[] = redirect

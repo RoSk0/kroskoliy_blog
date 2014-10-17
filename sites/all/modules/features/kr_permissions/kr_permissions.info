@@ -17,7 +17,6 @@ dependencies[] = metatags_quick
 dependencies[] = microdata
 dependencies[] = module_filter
 dependencies[] = node
-dependencies[] = page_title
 dependencies[] = path
 dependencies[] = pathauto
 dependencies[] = print
