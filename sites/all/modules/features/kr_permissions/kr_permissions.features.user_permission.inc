@@ -15,6 +15,8 @@ function kr_permissions_user_default_permissions() {
     'name' => 'access PDF version',
     'roles' => array(
       'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'print_pdf',
   );
@@ -80,6 +82,8 @@ function kr_permissions_user_default_permissions() {
     'name' => 'access print',
     'roles' => array(
       'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'print',
   );
@@ -89,6 +93,8 @@ function kr_permissions_user_default_permissions() {
     'name' => 'access send by email',
     'roles' => array(
       'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'print_mail',
   );
@@ -273,15 +279,6 @@ function kr_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'node',
-  );
-
-  // Exported permission: 'administer page titles'.
-  $permissions['administer page titles'] = array(
-    'name' => 'administer page titles',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'page_title',
   );
 
   // Exported permission: 'administer pathauto'.
@@ -714,15 +711,6 @@ function kr_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'print_mail',
-  );
-
-  // Exported permission: 'set page title'.
-  $permissions['set page title'] = array(
-    'name' => 'set page title',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'page_title',
   );
 
   // Exported permission: 'skip seo checks'.
