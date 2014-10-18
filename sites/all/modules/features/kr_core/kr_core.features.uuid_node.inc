@@ -42,7 +42,7 @@ I\'m a Drupal developer.<br />
 I started to work with Drupal in 2008.<br />
 Currently I\'m working on <a href="http://www.trellon.com/">Trellon</a> and maintaining <a href="https://drupal.org/project/crm_core">CRM Core</a> — Drupal-based framework to build CRM solutions.</p>
 ',
-        'safe_summary' => NULL,
+        'safe_summary' => '',
       ),
     ),
   ),
@@ -50,6 +50,10 @@ Currently I\'m working on <a href="http://www.trellon.com/">Trellon</a> and main
   'microdata' => array(
     '#attributes' => array(
       'itemscope' => '',
+      'itemid' => 'http://kroskoliy.com/about-me',
+    ),
+    'title' => array(
+      '#attributes' => array(),
     ),
     'body' => array(
       '#attributes' => array(),
