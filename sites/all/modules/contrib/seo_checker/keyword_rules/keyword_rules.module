@@ -234,7 +234,7 @@ function _keyword_rules_extract_tags($form_values) {
  * The SEO Checker has to be enabled per content type
  */
 function keyword_rules_form_node_type_form_alter(&$form, $form_status) {
-  $fieldarr = field_info_instances('node', $form['orig_type']['#value']);
+  $fieldarr = field_info_instances('node', $form['type']['#default_value']);
   $fields['disabled'] = t('Disable Keyword Check');
 
   if (is_array($fieldarr)) {
@@ -243,7 +243,7 @@ function keyword_rules_form_node_type_form_alter(&$form, $form_status) {
     }
   }
 
-  $extra_fields = field_info_extra_fields('node', $form['orig_type']['#value'], 'form');
+  $extra_fields = field_info_extra_fields('node', $form['type']['#default_value'], 'form');
   if (is_array($extra_fields)) {
     foreach ($extra_fields as $code => $field) {
       $fields[$code] = $field['label'];
