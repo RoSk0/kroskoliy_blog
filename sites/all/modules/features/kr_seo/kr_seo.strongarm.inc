@@ -377,7 +377,7 @@ function kr_seo_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'xmlsitemap_base_url';
-  $strongarm->value = 'http://kroskoliy.dev';
+  $strongarm->value = 'http://kroskoliy.com';
   $export['xmlsitemap_base_url'] = $strongarm;
 
   $strongarm = new stdClass();
