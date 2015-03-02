@@ -261,7 +261,7 @@ function kr_cv_uuid_features_default_content() {
   ),
   'name' => 'kroskoliy',
   'picture' => 0,
-  'data' => 'a:1:{s:7:"contact";i:0;}',
+  'data' => 'a:6:{s:7:"contact";i:0;s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";}',
   'print_html_display' => 1,
   'print_html_display_comment' => 0,
   'print_html_display_urllist' => 1,

@@ -25,7 +25,7 @@ function kr_core_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '677a74c0-15cb-43d7-8907-cbff900e007e',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -41,7 +41,7 @@ Currently I\'m working on <a href="http://www.trellon.com/" title="Trellon, LLC"
 My name is Kirill Roskoliy.<br />
 I\'m a Drupal developer.<br />
 I started to work with Drupal in 2008.<br />
-Currently I\'m working on <a href="http://www.trellon.com/" title="Trellon, LLC">http://www.trellon.com/</a> and maintaining <a href="https://drupal.org/project/crm_core" title="CRM Core">CRM Core</a> — Drupal-based framework to build CRM solutions.</p>
+Currently I\'m working on <a href="http://www.trellon.com/" title="Trellon, LLC">http://www.trellon.com/</a> and maintaining <a href="https://drupal.org/project/crm_core" title="CRM Core">CRM Core</a> — Drupal-based framework to build CRM solutions.</p>
 ',
         'safe_summary' => NULL,
       ),
@@ -122,7 +122,7 @@ Currently I\'m working on <a href="http://www.trellon.com/" title="Trellon, LLC
   ),
   'name' => 'kroskoliy',
   'picture' => 0,
-  'data' => 'a:1:{s:7:"contact";i:0;}',
+  'data' => 'a:6:{s:7:"contact";i:0;s:16:"ckeditor_default";s:1:"t";s:20:"ckeditor_show_toggle";s:1:"t";s:14:"ckeditor_width";s:4:"100%";s:13:"ckeditor_lang";s:2:"en";s:18:"ckeditor_auto_lang";s:1:"t";}',
   'print_html_display' => 0,
   'print_html_display_comment' => 0,
   'print_html_display_urllist' => 0,
