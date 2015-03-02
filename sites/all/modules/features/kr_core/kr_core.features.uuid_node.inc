@@ -25,7 +25,7 @@ function kr_core_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '677a74c0-15cb-43d7-8907-cbff900e007e',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -50,7 +50,7 @@ Currently I\'m working on <a href="http://www.trellon.com/">Trellon</a> and main
   'microdata' => array(
     '#attributes' => array(
       'itemscope' => '',
-      'itemid' => 'http://kroskoliy.com/about-me',
+      'itemid' => 'http://kroskoliy.dev/about-me',
     ),
     'title' => array(
       '#attributes' => array(),
