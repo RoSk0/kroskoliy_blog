@@ -28,7 +28,6 @@ dependencies[] = update
 dependencies[] = uuid_features
 dependencies[] = uuid_path
 __drupal_alter_by_ref[][node][page] = page
-features[ckeditor_profile][] = Advanced
 features[ckeditor_profile][] = CKEditor Global Profile
 features[ckeditor_profile][] = Full
 features[ctools][] = strongarm:strongarm:1

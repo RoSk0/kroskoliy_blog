@@ -73,7 +73,6 @@ features[variable][] = xmlsitemap_lastmod_format
 features[variable][] = xmlsitemap_minimum_lifetime
 features[variable][] = xmlsitemap_path
 features[variable][] = xmlsitemap_prefetch_aliases
-features[variable][] = xmlsitemap_regenerate_needed
 features[variable][] = xmlsitemap_settings_node_article
 features[variable][] = xmlsitemap_settings_node_page
 features[variable][] = xmlsitemap_xsl

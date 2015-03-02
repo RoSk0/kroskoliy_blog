@@ -29,20 +29,21 @@ function kr_core_uuid_features_default_content() {
   'body' => array(
     'und' => array(
       0 => array(
-        'value' => 'Hi.
-My name is Kirill Roskoliy.
-I\'m a Drupal developer.
-I started to work with Drupal in 2008.
-Currently I\'m working on <a href="http://www.trellon.com/">Trellon</a> and maintaining <a href="https://drupal.org/project/crm_core">CRM Core</a> &mdash; Drupal-based framework to build CRM solutions.',
+        'value' => '<p>Hi.<br />
+My name is Kirill Roskoliy.<br />
+I\'m a Drupal developer.<br />
+I started to work with Drupal in 2008.<br />
+Currently I\'m working on <a href="http://www.trellon.com/" title="Trellon, LLC">http://www.trellon.com/</a> and maintaining <a href="https://drupal.org/project/crm_core" title="CRM Core">CRM Core</a> — Drupal-based framework to build CRM solutions.</p>
+',
         'summary' => '',
-        'format' => 'filtered_html',
+        'format' => 'full_html',
         'safe_value' => '<p>Hi.<br />
 My name is Kirill Roskoliy.<br />
 I\'m a Drupal developer.<br />
 I started to work with Drupal in 2008.<br />
-Currently I\'m working on <a href="http://www.trellon.com/">Trellon</a> and maintaining <a href="https://drupal.org/project/crm_core">CRM Core</a> — Drupal-based framework to build CRM solutions.</p>
+Currently I\'m working on <a href="http://www.trellon.com/" title="Trellon, LLC">http://www.trellon.com/</a> and maintaining <a href="https://drupal.org/project/crm_core" title="CRM Core">CRM Core</a> — Drupal-based framework to build CRM solutions.</p>
 ',
-        'safe_summary' => '',
+        'safe_summary' => NULL,
       ),
     ),
   ),

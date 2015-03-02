@@ -111,7 +111,6 @@ features[user_permission][] = send unlimited emails
 features[user_permission][] = skip seo checks
 features[user_permission][] = switch users
 features[user_permission][] = use PHP for tracking visibility
-features[user_permission][] = use text format filtered_html
 features[user_permission][] = use text format full_html
 features[user_permission][] = view any checklistapi checklist
 features[user_permission][] = view checklistapi checklists report
