@@ -57,6 +57,7 @@ features[variable][] = admin_menu_tweak_permissions
 features[variable][] = admin_menu_tweak_tabs
 features[variable][] = admin_theme
 features[variable][] = comment_page
+features[variable][] = field_bundle_settings_node__article
 features[variable][] = googleanalytics_account
 features[variable][] = highlightjs_style
 features[variable][] = menu_options_article
