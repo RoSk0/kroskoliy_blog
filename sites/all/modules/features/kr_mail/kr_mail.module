@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the KR Mail feature.
+ */
+
+include_once 'kr_mail.features.inc';
