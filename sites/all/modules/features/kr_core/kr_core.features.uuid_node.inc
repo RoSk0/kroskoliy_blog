@@ -33,7 +33,7 @@ function kr_core_uuid_features_default_content() {
 My name is Kirill Roskoliy.<br />
 I\'m a Drupal developer.<br />
 I started to work with Drupal in 2008.<br />
-Currently I\'m working on <a href="http://www.trellon.com/" title="Trellon, LLC">http://www.trellon.com/</a> and maintaining <a href="https://drupal.org/project/crm_core" title="CRM Core">CRM Core</a> — Drupal-based framework to build CRM solutions.</p>
+Currently I\'m working on <a href="http://www.trellon.com/" title="Trellon, LLC">Trellon, LLC</a> and maintaining <a href="https://drupal.org/project/crm_core" title="CRM Core">CRM Core</a> — Drupal-based framework to build CRM solutions.</p>
 ',
         'summary' => '',
         'format' => 'full_html',
@@ -41,7 +41,7 @@ Currently I\'m working on <a href="http://www.trellon.com/" title="Trellon, LLC"
 My name is Kirill Roskoliy.<br />
 I\'m a Drupal developer.<br />
 I started to work with Drupal in 2008.<br />
-Currently I\'m working on <a href="http://www.trellon.com/" title="Trellon, LLC">http://www.trellon.com/</a> and maintaining <a href="https://drupal.org/project/crm_core" title="CRM Core">CRM Core</a> — Drupal-based framework to build CRM solutions.</p>
+Currently I\'m working on <a href="http://www.trellon.com/" title="Trellon, LLC">Trellon, LLC</a> and maintaining <a href="https://drupal.org/project/crm_core" title="CRM Core">CRM Core</a> — Drupal-based framework to build CRM solutions.</p>
 ',
         'safe_summary' => NULL,
       ),
