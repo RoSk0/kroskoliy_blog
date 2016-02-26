@@ -1,5 +1,5 @@
 /**
- * @file dcaPlugin to count symbols, symbols without blanks and words
+ * @file Plugin to count symbols, symbols without blanks and words
  */
 ( function(){
   var emptyHtml = '<span class="cke_empty">&nbsp;</span>';
