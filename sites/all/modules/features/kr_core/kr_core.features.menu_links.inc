@@ -10,7 +10,7 @@
 function kr_core_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_contact:contact
+  // Exported menu link: main-menu_contact:contact.
   $menu_links['main-menu_contact:contact'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'contact',
@@ -30,7 +30,7 @@ function kr_core_menu_default_menu_links() {
     'weight' => 2,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_home:<front>
+  // Exported menu link: main-menu_home:<front>.
   $menu_links['main-menu_home:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
@@ -47,11 +47,11 @@ function kr_core_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 0,
   );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Contact');
   t('Home');
-
 
   return $menu_links;
 }

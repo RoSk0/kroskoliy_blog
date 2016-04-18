@@ -15,6 +15,7 @@ dependencies[] = highlight_js
 dependencies[] = htmlpurifier
 dependencies[] = image
 dependencies[] = kr_cv
+dependencies[] = kr_seo
 dependencies[] = libraries
 dependencies[] = menu
 dependencies[] = path

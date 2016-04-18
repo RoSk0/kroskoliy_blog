@@ -47,7 +47,6 @@ Currently I\'m working on <a href="http://www.trellon.com/" title="Trellon, LLC"
       ),
     ),
   ),
-  'metatags' => array(),
   'microdata' => array(
     '#attributes' => array(
       'itemscope' => '',
