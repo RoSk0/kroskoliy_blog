@@ -19,8 +19,8 @@ function kr_backup_exportables_backup_migrate_profiles() {
   $item->append_timestamp = TRUE;
   $item->timestamp_format = 'Y-m-d\\TH-i-s';
   $item->filters = array(
-    'compression' => 'gzip',
-    'encryption' => 'aes',
+    'compression' => 'zip',
+    'encryption' => '',
     'notify_success_enable' => 0,
     'notify_success_email' => 'roskoliy.kirill@gmaill.com',
     'notify_failure_enable' => 1,
