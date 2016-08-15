@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Code for the KR Core feature.
+ */
+
+/**
+ * Delete Social media links module.
+ */
+function kr_core_update_7000() {
+  // Deleting Social media links module.
+  variable_del('social_media_links_platforms');
+  variable_del('social_media_links_appearance');
+  variable_del('social_media_links_link_attributes');
+  variable_del('social_media_links_icon_style');
+  db_delete('system')
+    ->condition('name', 'social_media_links', '=')
+    ->condition('type', 'module', '=')
+    ->execute();
+}
