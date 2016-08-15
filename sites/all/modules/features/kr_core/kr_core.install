@@ -7,6 +7,8 @@
 
 /**
  * Delete Social media links module.
+ * Delete Social media filed module.
+ * Delete wysiwyg module.
  */
 function kr_core_update_7000() {
   // Deleting Social media links module.
@@ -18,4 +20,17 @@ function kr_core_update_7000() {
     ->condition('name', 'social_media_links', '=')
     ->condition('type', 'module', '=')
     ->execute();
+  // Deleting Social media filed module.
+  db_delete('system')
+    ->condition('name', 'social_profile_field', '=')
+    ->condition('type', 'module', '=')
+    ->execute();
+
+  // Deleting wysiwyg module.
+  db_delete('system')
+    ->condition('name', 'wysiwyg', '=')
+    ->condition('type', 'module', '=')
+    ->execute();
+  db_drop_table('wysiwyg');
+  db_drop_table('wysiwyg_user');
 }
