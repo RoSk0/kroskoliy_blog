@@ -11,7 +11,7 @@ def deploy(path, default=True):
         drush_updb()
         drush_fra()
         secure_fs()
-        drush_fl
+        drush_fl()
 
 @task()
 def git_pull():
