@@ -11,6 +11,7 @@ def deploy(path, default=True):
         drush_updb()
         drush_fra()
         secure_fs()
+        drush_fl
 
 @task()
 def git_pull():
@@ -43,3 +44,8 @@ def secure_fs():
     run('chmod a-w -R sites/default/files/.htaccess')
     print(green("==> MPDF requires additional cache for work."))
     run('chmod u+w -R sites/all/libraries/MPDF57/graph_cache')
+
+@task()
+def drush_fl():
+    print(green("===> Feature list..."))
+    run('drush fl')
