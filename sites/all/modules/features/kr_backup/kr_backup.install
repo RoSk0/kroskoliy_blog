@@ -1,0 +1,9 @@
+<?php
+/**
+ * @file
+ * Code for the KR Backup feature.
+ */
+
+function kr_backup_update_7000() {
+  module_disable(['aes']);
+}
