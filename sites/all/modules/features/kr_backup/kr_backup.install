@@ -5,5 +5,5 @@
  */
 
 function kr_backup_update_7000() {
-  module_disable(['aes']);
+  module_disable(array('aes'));
 }
